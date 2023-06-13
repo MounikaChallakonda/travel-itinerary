@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Travel Website</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+<link rel="preconnect" href="https://fonts.googleleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleleapis.com/css2?family=Paytone+One&family=poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--header-->
+    <header>
+        <a href="#" class="logo">Travel</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#package">Package</a></li>
+            <li><a href="#destination">Destination</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Fuel Mind <br> Travel</h1>
+            <p>Enthusiastically extend extensive customer service before <br> best breed convergence completely.</p>
+            <a href="#" class="home-btn">Let's go now</a>
+
+        </div>
+
+    </section>
+    <!-- container -->
+    <section class="container">
+        <div class="text">
+            <h2>Start Your Vacation <br> with Lots of Services!</h2>
+        </div>
+
+        <div class="row-items">
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="https://www.creativefabrica.com/wp-content/uploads/2020/03/17/Boat-Logo-Designs-Graphics-3672824-1.jpg" width="20%">
+                </div>
+                <h4>Ship Cruises</h4>
+                <p>150 Properties</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="https://images-platform.99static.com//64RVHLYKS-sAgw4WkNz2PauaEPQ=/117x65:1122x1070/fit-in/590x590/99designs-contests-attachments/121/121740/attachment_121740866" width="15%">
+                </div>
+                <h4>Food Tours</h4>
+                <p>150 Properties</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="https://img.myloview.com/posters/sun-logo-400-197039603.jpg" width="20%">
+                </div>
+                <h4>Summer Rest</h4>
+                <p>150 Properties</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="data:image/png;base64,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" width="20%">
+                </div>
+                <h4>Mountains Tours</h4>
+                <p>150 Properties</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Package section -->
+    <section class="package" id="package">
+        <div class="title">
+            <h2>Our Upcoming <br> Tour Package</h2>
+        </div>
+
+        <div class="package-content">
+            <div class="box">
+                <div class="thum">
+                    <img src="https://i.pinimg.com/originals/f2/c3/d7/f2c3d770a292d5733b4764b4fcc9cf89.jpg">
+                    <h3>$499</h3>
+                </div>
+
+                <div class="dest-content">
+                    <div class="location">
+                        <h4>London</h4>
+                        <p>4h - 5h</p>
+                    </div>
+                    <div class="stars">
+                        <a href="#"><i class="bx bxs-star"></i></a>
+                        <a href="#"><i class="bx bxs-star"></i></a>
+                        <a href="#"><i class="bx bxs-star"></i></a>
+                        <a href="#"><i class="bx bxs-star"></i></a>
+                        <a href="#"><i class="bx bxs-star"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="thum">
+                    <img src="https://images.unsplash.com/photo-1541336032412-2048a678540d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fHw%3D&w=1000&q=80">
+                    <h3>$499</h3>
+                </div>
+
+                <div class="dest-content">
+                    <div class="location">
+                        <h4>New York</h4>
+                        <p>4h - 5h</p>
+                    </div>
+                    <div class="stars">
+                        <a href="#"><i class="bx bxs-star"></i></a>
+                        <a href="#"><i class="bx bxs-star"></i></a>
+                        <a href="#"><i class="bx bxs-star"></i></a>
+                        <a href="#"><i class="bx bxs-star"></i></a>
+                        <a href="#"><i class="bx bxs-star"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="thum">
+                    <img src="https://images.unsplash.com/photo-1594800083755-8fe31b2c99df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZWRpbmJ1cmdofGVufDB8fDB8fHww&w=1000&q=80">
+                    <h3>$499</h3>
+                </div>
+
+                <div class="dest-content">
+                    <div class="location">
+                        <h4>Edinburgh</h4>
+                        <p>4h - 5h</p>
+                    </div>
+                    <div class="stars">
+                        <a href="#"><i class="bx bxs-star"></i></a>
+                        <a href="#"><i class="bx bxs-star"></i></a>
+                        <a href="#"><i class="bx bxs-star"></i></a>
+                        <a href="#"><i class="bx bxs-star"></i></a>
+                        <a href="#"><i class="bx bxs-star"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- destination section -->
+    <section class="destination" id="destination">
+        <div class="title">
+            <h2>Our Most Popular <br> Destination</h2>
+        </div>
+
+        <div class="destination-content">
+            <div class="col-content">
+                <img src="https://wallpaperaccess.com/full/1099438.jpg" width="80%">
+                <h5>Machu Picchu</h5>
+                <p>PERU</p>
+            </div>
+
+            <div class="col-content">
+                <img src="https://cdn.britannica.com/07/178107-050-2B74FFE8/stonework-Temple-of-the-Sun-Machu-Picchu.jpg" width="80%">
+                <h5>Machu Picchu</h5>
+                <p>PERU</p>
+            </div>
+
+            <div class="col-content">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/98/d6/00/rainbow-mountain-peru.jpg?w=1200&h=-1&s=1" width="80%">
+                <h5>Machu Picchu</h5>
+                <p>PERU</p>
+            </div>
+
+            <div class="col-content">
+                <img src="https://cdn.pixabay.com/photo/2017/09/22/09/42/peru-2774925_1280.jpg" width="80%">
+                <h5>Machu Picchu</h5>
+                <p>PERU</p>
+            </div>
+            <div class="col-content">
+                <img src="https://www.machupicchu.org/wp-content/uploads/top-mapi-ma.jpg" width="84%">
+                <h5>Machu Picchu</h5>
+                <p>PERU</p>
+            </div>
+
+            <div class="col-content">
+                <img src="https://media.istockphoto.com/id/1164273042/photo/suspended-bridge-hanging-above-the-santa-teresa-river-in-green-lush-valley-trek-to-machu.jpg?s=612x612&w=0&k=20&c=cADvyESEbS-04_Wc-qG4xvhaeSyncLtRhmKnU7rcH9A=" width="80%">
+                <h5>Machu Picchu</h5>
+                <p>PERU</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="news-text">
+            <h2>Newsletter</h2>
+            <p>Subscribe For More Tour Packages and <br> Travel Guide </p>
+        </div>
+
+        <div class="send">
+            <form>
+                <input type="email" placeholder="Write Your Email" required>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section id="contact">
+        <div class="footer">
+            <div class="main">
+                <div class="list">
+                    <h4>Quick Link</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Tour</a></li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Tour</a></li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><a href="#">98 West 21th street</a></li>
+                        <li><a href="#">New York NY 10016</a></li>
+                        <li><a href="#">+(123)-456-7890</a></li>
+                        <li><a href="#">tourinfo@gmail.com</a></li>
+                        <li><a href="#">+(123)-456-7890</a></li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                    <h4>Connect</h4>
+                    <div class="social">
+                        <a href="#"><i class="bx bxl-facebook"></i></a>
+                        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+                        <a href="#"><i class="bx bxl-twitter"></i></a>
+                        <a href="#"><i class="bx bxl-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="end-text">
+            <p>Copyright @2023 All rights reserved | Made with by Our Staff</p>
+        </div>
+    </section>
+
+    <!-- link to js -->
+    <script type="javascript" src="script.js"></script>
+
+
+</body>
+</html>
